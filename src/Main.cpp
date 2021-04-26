@@ -51,7 +51,7 @@ int FORD_FULKERSON_DIJKSTRA(Graph* G, int i_Source, int i_Destination, int* i_Di
 
 int main(int argc, char* argv[])
 {
-	string filePath = "input1.txt";//argv[1];
+	string filePath = "input1.txt";
 	InputChecker::ValidateFormat(filePath);
 	int vertexS, vertexT, maxFlow, numberOfiterations = 0;
 	Graph *graph = ReadFromFile(filePath, &vertexS, &vertexT);
@@ -81,8 +81,6 @@ int main(int argc, char* argv[])
 	delete[] distanceArr;
 	delete[] parentArr;
 	delete graph;
-
-	system("pause");
 	return 0;
 }
 
