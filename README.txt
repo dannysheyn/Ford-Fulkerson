@@ -16,3 +16,29 @@ If any input will be invalid the program will notify the user before exiting
 The program will retrieves all the data from the given file and build the graph using a matrix.
 Then it will run both algorithm to solve the Maximum Flow problem.
 For each run the program will print the Maximum Flow that was found, the Minimun cut and the number of iterations.
+
+Example input:
+6
+10
+1
+6
+1 2 16
+1 3 13
+2 3 10
+3 2 4
+2 4 12
+4 3 9
+3 5 14
+5 4 7
+5 6 4
+4 6 20
+
+For this input the output will be:
+BFS Method:
+Max flow = 23
+Min cut: S = 1, 2, 3, 5. T = 4, 6
+Number of iterations = 3
+Greedy Method:
+Max flow = 23
+Min Cut: S = 1, 2, 3, 5. T = 4, 6
+Number of iterations = 4
