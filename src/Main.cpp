@@ -1,7 +1,4 @@
 /*
-Daniel Shaanan 313622268
-Gal Kolberg 206097925
-
 This program solves the Maximun flow problem, using Ford - Fulkerson methods, using both BFS (Edmonds - Karp Algorithm) 
 and a greedy approach to find the improving route.
 
